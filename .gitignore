@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+.env
+.env.*
+
+# Streamlit local config/state (if present in project)
+.streamlit/
+
+# Build and distribution
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Caches and tooling
+.mypy_cache/
+.pytest_cache/
+.coverage
+.coverage.*
+coverage.xml
+.cache/
+
+# OS / Editor files
+.DS_Store
+.idea/
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/
