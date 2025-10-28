@@ -23,8 +23,8 @@ from services.erase_foreground import erase_foreground
 
 # Configure Streamlit page
 st.set_page_config(
-    page_title="AdSnap Studio",
-    page_icon="🎨",
+    page_title="R3ND3R-9",
+    page_icon="🖥️",
     layout="wide",
     initial_sidebar_state="expanded"
 )
@@ -137,7 +137,7 @@ def auto_check_images(status_container):
     return False
 
 def main():
-    st.title("AdSnap Studio")
+    st.title("R3ND3R-9")
     initialize_session_state()
     
     # Sidebar for API key
